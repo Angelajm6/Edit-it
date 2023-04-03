@@ -32,7 +32,7 @@ export const putDb = async (content) => {
 };
 
 
-//Add logic for a method that gets all the content from the database
+//Add logic to a method that gets all the content from the database
 export const getDb = async () => {
   
   try {
