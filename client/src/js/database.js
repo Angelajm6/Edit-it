@@ -22,8 +22,9 @@ export const putDb = async (content) => {
     const jateDB = await openDB('jate',1);
     const tx = jateDB.transaction('jate','readwrite');
     const currentContent = tx.objectStore('jate');
-    const request = currentContent.add({content});
+    const request = currentContent.put({id:1, value:content});
     const result = await request;
+    console.log(result.value)
   
   } catch(err) {
     console.error('putDb not implemented',err)
@@ -43,6 +44,12 @@ export const getDb = async () => {
     const request = currentNotes.getAll();
     const result = await request;
 
+   if (result) {
+    console.log(result.value)
+   } else {
+    console.log ('Data was not found in Database')
+   }
+    
   } catch(err) {
     console.error('getDb not implemented',err)
   }
