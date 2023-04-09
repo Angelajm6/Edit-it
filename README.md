@@ -28,7 +28,7 @@ npm run start:dev
 
 To build this text editor, I made use of a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
-The following image shows the apploications layout:
+The following image shows the application layout:
 <img width="1714" alt="Screenshot 2023-04-09 at 8 35 37 AM" src="https://user-images.githubusercontent.com/109991922/230772932-8640bdc8-6880-4422-86f8-e91917e41e32.png">
 
 
