@@ -14,7 +14,6 @@
 My task was to build a text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline and is deployed to Heroku. 
 
 
-
 ## Installation
 
 To run this app locally, download the repository from GitHub and clone it to your local machine.
@@ -28,6 +27,11 @@ npm run start:dev
 ## Usage
 
 To build this text editor, I made use of a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+
+The following image shows the apploications layout:
+<img width="1714" alt="Screenshot 2023-04-09 at 8 35 37 AM" src="https://user-images.githubusercontent.com/109991922/230772932-8640bdc8-6880-4422-86f8-e91917e41e32.png">
+
+
 
 ## License
 This application is licensed under the MIT License. 
